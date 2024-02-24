@@ -2,7 +2,7 @@ import EditNoteForm from "@/components/EditNoteForm"
 
 const getNoteById = async(id) => {
   try {
-    const res = await fetch(`https://notes-git-main-jasrajs-projects.vercel.app/api/notes/${id}`, {
+    const res = await fetch(`https://notes-app-rho-rose.vercel.app/api/notes/${id}`, {
       cache: "no-store",
     });
 

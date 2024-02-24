@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi"
 
 const getNotes = async() => {
   try {
-    const res = await fetch('https://notes-git-main-jasrajs-projects.vercel.app/api/notes', {
+    const res = await fetch('https://notes-app-rho-rose.vercel.app/api/notes', {
     cache: "no-store",
     });
 

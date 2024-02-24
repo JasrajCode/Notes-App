@@ -13,7 +13,7 @@ export default function EditNoteForm({ id, title, description }) {
     e.preventDefault();
 
     try {
-      const res = await fetch(`https://notes-git-main-jasrajs-projects.vercel.app/api/notes/${id}`, {
+      const res = await fetch(`https://notes-app-rho-rose.vercel.app/api/notes/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",

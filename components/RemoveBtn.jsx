@@ -9,7 +9,7 @@ export default function RemoveBtn({ id }) {
     const confirmed = confirm("Are you sure?");
 
     if (confirmed) {
-      const res = await fetch(`https://notes-git-main-jasrajs-projects.vercel.app/api/notes?id=${id}`, {
+      const res = await fetch(`https://notes-app-rho-rose.vercel.app/api/notes?id=${id}`, {
         method: "DELETE",
       });
       

@@ -17,7 +17,7 @@ export default function AddNote() {
     }
 
     try {
-      const res = await fetch("https://notes-git-main-jasrajs-projects.vercel.app/api/notes", {
+      const res = await fetch("https://notes-app-rho-rose.vercel.app/api/notes", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
